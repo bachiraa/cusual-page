@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    background-image: url(images/fresh-fruit-basket1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*HOME*/
+.text{
+    color:#CB0D0D;
+    font-size: 20px;
+    font-weight: 700;
+}
+.texte{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 200;
+}
+.barre{
+    background-color: #490909;
+    height: 70px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.barre ul{
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+}
+.barre ul li a{
+color: #fff;
+font-size: 15px;
+text-decoration: none;
+list-style-type: none;
+margin: 15px;
+}
+
+footer{
+    height: 100px;
+    background-color: #311919;
+    margin-top: 100px;
+}
+.copie{
+    justify-content: center;
+    margin-top: 30px;
+}
+.copie span{
+    color: white;
+    font-size: 20px;
+    margin: 40px;
+    text-align: center;
+}
+
+/*.promise{
+    background-color: #A5342BB0;
+    opacity: 0.6;
+    height: 500px;
+    margin-top: 100px;
+}*/
+.promise{
+    background-color: #A5342BB0;
+    height: 330px;
+    margin-top: 100px;
+}
+.bloc{
+    height: 320px;
+    width: 1020px;
+    border: #F6E1C5 1px solid;
+    margin: auto;
+    border-radius: 10px;
+}
+.cadre{
+    background-color: #F6E1C5;
+    height: 300px;
+    width: 1000px;
+    margin:auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.cadre h1{
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+}
+.cadre h6{
+    font-weight: 100;
+    font-size: 30px;
+    margin: 20px;
+}
+.cadre p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    margin: 50px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.first{
+    background-color: #F6E1C5;
+    height: 300px;
+    width: 400px;
+    margin-top: 100px;
+    justify-content: right;
+    border-radius: 10px;
+}
+.first h1{
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+}
+.first h6{
+    font-weight: 100;
+    font-size: 30px;
+    margin: 20px;
+}
+.first p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    margin: 50px;
+}
+@media screen and (max-width: 991px){
+    .texte{
+        font-size: 30px;
+    }
+    .images{
+        flex-direction: column;
+    }
+    .first{
+        margin: auto;
+    }
+    
+    .promise{
+        height: 450px;
+    }
+    .bloc{
+        height: 400px;
+        width: 400px;
+    }
+    .cadre{
+        height: 380px;
+        width: 380px;
+    }
+}
+
+
+/*ABOUT*/
+
+
+/*PRODUCTS*/
+
+
+/*STORE*/
